@@ -17,8 +17,8 @@ jobs:
 
       - name: Cai dat Newman
         run: npm install -g newman
-
+        
       - name: Chay bo Test tu dong
-        run: >
-          newman run RestfulBooker_API_Collection.postman_collection.json
-          -e RestfulBooker_Env .postman_environment.json
+        run: |
+          ls -la
+          newman run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json
