@@ -20,7 +20,7 @@ jobs:
         
       - name: Chay bo Test tu dong
         run: |
-          ls -la
-          newman run RestfulBooker_API_Collection.postman_collection.json -e RestfulBooker_Env.postman_environment.json
+          newman run RestfulBooker_API_Collection.postman_collection.json -e "RestfulBooker_Env .postman_environment.json"
+
 
 
